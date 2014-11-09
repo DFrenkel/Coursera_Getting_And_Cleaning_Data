@@ -1,4 +1,4 @@
-Coursera Getting And Cleaning Data (https://www.coursera.org/course/getdata)
+Coursera Getting And Cleaning Data
 ============================================================================
 
 This is a repository containing quizes, data files and programming assignments for Coursera Getting And Cleaning Data class from Johns Hopkins University (https://www.coursera.org/course/getdata) as completed by me.
