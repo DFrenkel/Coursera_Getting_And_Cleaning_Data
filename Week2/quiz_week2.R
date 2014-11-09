@@ -82,10 +82,5 @@ result <- sum(tab[, 4])
 print(paste("Question 5: SUM=", result))
 
 
-
-
-
-
-
 setwd('../')
 
