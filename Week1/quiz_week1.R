@@ -55,6 +55,7 @@ if (!file.exists("ss06pid.csv")) {
 }
 DT <- fread("ss06pid.csv", sep=",")
 
+
 print(system.time({mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)}, gcFirst = TRUE))
 print(system.time({sapply(split(DT$pwgtp15,DT$SEX),mean)}, gcFirst = TRUE))
 print(system.time({tapply(DT$pwgtp15,DT$SEX,mean)}, gcFirst = TRUE))
